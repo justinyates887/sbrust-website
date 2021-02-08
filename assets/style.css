@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Rust;
+    src: url(./fonts/Rust.ttf);
+  }
+
+  *{
+      font-family: Rust;
+      margin: 0;
+  }
+
+  nav{
+      background-color: transparent;
+  }
+
+  p{
+      font-size: large;
+  }
+
+  /* #main{
+      overflow: hidden;
+  } */
+
+  html, body {
+    height: 100%;
+}
+
+  video #homeVid{
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+  .overlay{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900px;
+}
+
+.pageOverlay{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900px;
+}
+
+.navOverlay{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 2;
+}
+
+.cardOverlay{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 1;
+}
+
+.card{
+    box-shadow: 5px 10px rgba(3, 3, 3, 0.144);
+    border-style: hidden;
+}
+
+.nav-link{
+    color: rgba(206, 38, 32, 0.788);
+}
+
+.card-link{
+    color: rgba(206, 38, 32, 0.788);
+}
+
+.pageCenter{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-primary{
+    background-color: rgba(138, 138, 138, 0) !important;
+}
+
+#welcomeCard{
+    font-weight: 900;
+}
